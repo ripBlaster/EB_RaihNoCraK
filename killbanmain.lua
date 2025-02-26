@@ -1,25 +1,25 @@
 local Ban = {
-    ['Ban'] = {
-        [2619882153] = {Motivo = "Motivo do banimento"},
+    ['Ban'] = { -- Ban
+        -- [ID] = {Motivo = "Motivo do banimento"},
     },
 
     ['Crash'] = {
         -- [ID] = {Motivo = "Motivo do crash"},
     },
 
-    ['Punish'] = {
-        -- [ID] = {Motivo = "Motivo da punição"},
+    ['Punish'] = { -- Blind
+        [2619882153] = {Motivo = "Motivo da punição"},
     },
 
-    ['SafeChat'] = {
-        -- [ID] = {Motivo = "Motivo da restrição de chat"},
+    ['SafeChat'] = { 
+        [2619882153] = {Motivo = "Motivo da restrição de chat"},
     },
 
-    ['ID_Banned'] = {
+    ['ID_Banned'] = { -- Mesma coisa que o ban
         -- [ID] = {Motivo = "Ban por ID"},
     },
 
-    ['Admins'] = {
+    ['Admins'] = { -- Killban em tempo real
         -- [ID] = {Motivo = "Admin autorizado"},
     }
 }
