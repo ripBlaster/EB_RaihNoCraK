@@ -1,8 +1,27 @@
-{
-  "Banned_Players": ["jogador1", "jogador2"],
-  "Crash_Players": ["hacker1", "hacker2"],
-  "Punished_Players": ["trapaceiro1", "trapaceiro2"],
-  "Safe_Chat_Players": ["criança1", "criança2"],
-  "ID_Banned_Players": ["12345678", "87654321"],
-  "People_Who_Can_Ban_Other_People": ["AdminMaster"]
+local Ban = {
+    ['Ban'] = {
+        [2619882153] = {Motivo = "Motivo do banimento"},
+    },
+
+    ['Crash'] = {
+        -- [ID] = {Motivo = "Motivo do crash"},
+    },
+
+    ['Punish'] = {
+        -- [ID] = {Motivo = "Motivo da punição"},
+    },
+
+    ['SafeChat'] = {
+        -- [ID] = {Motivo = "Motivo da restrição de chat"},
+    },
+
+    ['ID_Banned'] = {
+        -- [ID] = {Motivo = "Ban por ID"},
+    },
+
+    ['Admins'] = {
+        -- [ID] = {Motivo = "Admin autorizado"},
+    }
 }
+
+return Ban
